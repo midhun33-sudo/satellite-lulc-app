@@ -1,0 +1,11 @@
+satellite-lulc-app/
+├── models/                  # Saved model weights (.pth) will be stored here
+├── templates/
+│   └── index.html           # Frontend web interface
+├── app.py                   # Flask inference & Grad-CAM backend
+├── model_utils.py           # Model architecture, preprocessing & Grad-CAM logic
+├── train.py                 # Automated dataset download & ResNet-18 training script
+└── requirements.txt         # Project dependencies
+
+
+

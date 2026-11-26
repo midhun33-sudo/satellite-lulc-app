@@ -1,0 +1,19 @@
+# Python & virtual environments
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Dataset & trained weights (too large for standard Git pushes)
+data/
+models/*.pth
+models/*.pt
+*.zip
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
